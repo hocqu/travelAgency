@@ -1,12 +1,7 @@
-import Entities.Tour;
-import Service.ImportToJSON;
 import menu.AdminMenu;
 import menu.Menu;
-import repo.TourRepo;
-
 
 import java.sql.SQLException;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws SQLException {

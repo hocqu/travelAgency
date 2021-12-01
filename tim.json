@@ -1,0 +1,188 @@
+{
+  "customers": [
+    {
+      "name": "Willis Walls",
+      "phone": "+1 (902) 485-2805",
+      "email": "williswalls@tetak.com",
+      "sale": 15,
+      "tours": [
+        {
+          "tourType": "Relax",
+          "departureDate": "2023-09-04",
+          "daysInTour": 10,
+          "city": "Jordan, Malott",
+          "cost": 2992,
+          "burning": true
+        },
+        {
+          "tourType": "Relax",
+          "departureDate": "2023-11-11",
+          "daysInTour": 9,
+          "city": "Paraguay, Magnolia",
+          "cost": 2500,
+          "burning": false
+        }
+      ]
+    },
+    {
+      "name": "Saunders Hodges",
+      "phone": "+1 (992) 446-2666",
+      "email": "saundershodges@tetak.com",
+      "sale": 0,
+      "tours": [
+        {
+          "tourType": "Relax",
+          "departureDate": "2022-01-07",
+          "daysInTour": 19,
+          "city": "Tonga, Cashtown",
+          "cost": 2177,
+          "burning": true
+        },
+        {
+          "tourType": "Shopping",
+          "departureDate": "2023-07-28",
+          "daysInTour": 10,
+          "city": "Malawi, Falconaire",
+          "cost": 753,
+          "burning": false
+        },
+        {
+          "tourType": "Excursion",
+          "departureDate": "2021-12-26",
+          "daysInTour": 14,
+          "city": "Christmas Island, Deltaville",
+          "cost": 1698,
+          "burning": false
+        }
+      ]
+    },
+    {
+      "name": "Graham Wolfe",
+      "phone": "+1 (849) 452-2129",
+      "email": "grahamwolfe@tetak.com",
+      "sale": 10,
+      "tours": [
+        {
+          "tourType": "Relax",
+          "departureDate": "2023-02-20",
+          "daysInTour": 16,
+          "city": "Burundi, Spokane",
+          "cost": 2571,
+          "burning": true
+        },
+        {
+          "tourType": "Shopping",
+          "departureDate": "2023-08-27",
+          "daysInTour": 16,
+          "city": "Bermuda, Jeff",
+          "cost": 2056,
+          "burning": true
+        }
+      ]
+    },
+    {
+      "name": "Roth Gill",
+      "phone": "+1 (887) 480-3656",
+      "email": "rothgill@tetak.com",
+      "sale": 15,
+      "tours": [
+        {
+          "tourType": "Excursion",
+          "departureDate": "2023-11-15",
+          "daysInTour": 10,
+          "city": "Venezuela, Cedarville",
+          "cost": 727,
+          "burning": true
+        }
+      ]
+    },
+    {
+      "name": "Crawford Moore",
+      "phone": "+1 (924) 471-3764",
+      "email": "crawfordmoore@tetak.com",
+      "sale": 20,
+      "tours": [
+        {
+          "tourType": "Excursion",
+          "departureDate": "2023-06-12",
+          "daysInTour": 19,
+          "city": "Bhutan, Urie",
+          "cost": 1199,
+          "burning": true
+        },
+        {
+          "tourType": "Shopping",
+          "departureDate": "2023-06-18",
+          "daysInTour": 15,
+          "city": "Dominica, Holtville",
+          "cost": 2017,
+          "burning": false
+        },
+        {
+          "tourType": "Relax",
+          "departureDate": "2022-08-05",
+          "daysInTour": 12,
+          "city": "Niue, Hillsboro",
+          "cost": 932,
+          "burning": false
+        },
+        {
+          "tourType": "Excursion",
+          "departureDate": "2023-07-03",
+          "daysInTour": 4,
+          "city": "Seychelles, Nogal",
+          "cost": 1365,
+          "burning": true
+        },
+        {
+          "tourType": "Shopping",
+          "departureDate": "2023-11-03",
+          "daysInTour": 3,
+          "city": "Zimbabwe, Bellamy",
+          "cost": 988,
+          "burning": false
+        }
+      ]
+    },
+    {
+      "name": "Kimberley Reyes",
+      "phone": "+1 (847) 480-3750",
+      "email": "kimberleyreyes@tetak.com",
+      "sale": 15,
+      "tours": [
+        {
+          "tourType": "Shopping",
+          "departureDate": "2022-12-15",
+          "daysInTour": 6,
+          "city": "Kazakhstan, Walker",
+          "cost": 827,
+          "burning": false
+        }
+      ]
+    },
+    {
+      "name": "Timur Chibikov",
+      "phone": "+375 33 63 92 488",
+      "email": "tima.chibikov@mail.ru",
+      "sale": 5,
+      "tours": [
+        {
+          "tourType": "Relax",
+          "departureDate": "2021-12-15",
+          "daysInTour": 10,
+          "city": "Sochi, Russia",
+          "cost": 1000,
+          "burning": false
+        },
+        {
+          "tourType": "Excursion",
+          "departureDate": "2021-5-31",
+          "daysInTour": 15,
+          "city": "Roma, Italia",
+          "cost": 2100,
+          "burning": false
+        }
+      ]
+    }
+  ]
+}

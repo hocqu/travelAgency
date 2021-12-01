@@ -1,0 +1,44 @@
+{
+  "customers": [
+    {
+      "customer": [
+        {
+          "id": 1,
+          "name": "Willis Walls",
+          "phone": "+1 (902) 485-2805",
+          "email": "williswalls@tetak.com",
+          "sale": 15,
+          "tours": [
+            {
+              "tour":[
+                {
+                  "id": 1,
+                  "tourType": "Shopping",
+                  "departureDate": "2023-12-03",
+                  "daysInTour": 4,
+                  "city": "Austria, Carrsville",
+                  "cost": 437,
+                  "burning": true
+                }
+              ]
+            },
+            {
+              "tourType": "Relax",
+              "departureDate": "2023-09-04",
+              "daysInTour": 10,
+              "city": "Jordan, Malott",
+              "cost": 2992,
+              "burning": true
+            },
+            {
+              "tourType": "Relax",
+              "departureDate": "2023-11-11",
+              "daysInTour": 9,
+              "city": "Paraguay, Magnolia",
+              "cost": 2500,
+              "burning": false
+            }
+          ]
+        }
+      ]}]
+}
