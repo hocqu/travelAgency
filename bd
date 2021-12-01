@@ -1,0 +1,3 @@
+create table Customer(id int AUTO_INCREMENT, name varchar(30),phone varchar(20),email varchar(30),sale int,PRIMARY KEY(id));
+create table Tour(id int AUTO_INCREMENT, tourType varchar(10),departureDate varchar(12),city varchar(30),cost int,burning boolean,customer_id int, PRIMARY KEY(id),FOREIGN KEY (customer_id) REFERENCES customer (id));
+create table allTours(id int AUTO_INCREMENT,city varchar(30),cost int, PRIMARY KEY(id));
