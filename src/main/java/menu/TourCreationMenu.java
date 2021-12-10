@@ -52,7 +52,7 @@ public class TourCreationMenu extends Menu {
 
 
     @Override
-    public void getMenu() {
+    public void getMenu() throws SQLException {
         boolean exit = false;
         boolean typeValid = false;
         boolean burningValid=false;
