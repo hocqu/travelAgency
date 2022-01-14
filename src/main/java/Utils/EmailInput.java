@@ -1,9 +1,9 @@
-package Service;
+package Utils;
 
 import Entities.Customer;
 import Utils.IntegerInput;
+//import Utils.PhoneNumber;
 import Utils.PhoneNumber;
-import menu.AdminMenu;
 import repo.CustomerRepo;
 
 import java.sql.SQLException;
@@ -37,11 +37,10 @@ public class EmailInput {
             switch (valid) {
                 case 1:
                     do {
-                        System.out.println("Имя пользователя: " + customer.getName() +
-                                "\nДанные введены правильно?\n" +
-                                "1.Да\n" +
-                                "2.Создать нового пользователя\n" +
-                                "3.Выход");
+                        System.out.println("User name: " + customer.getName() +
+                                "\nCorrect?\n" +
+                                "1.Yes\n" +
+                                "2.Create new customer");
                         int choice = integerInput.integerInput();
                         switch (choice) {
                             case 1:
@@ -52,13 +51,6 @@ public class EmailInput {
                                 valid = 2;
                                 choiceValid = true;
                                 break;
-                            case 3:
-                                choiceValid = true;
-
-                                emailValid = true;
-//                                AdminMenu.getInstance();
-//                                AdminMenu.getInstance().getMenu();
-                                break;
                             default:
                                 System.out.println(NO_OPERATION);
                                 break;
@@ -66,12 +58,12 @@ public class EmailInput {
                     } while (!choiceValid);
                     break;
                 case 2:
-                    System.out.println("Регистрация нового пользователя");
-                    System.out.println("Введите имя и фамилию пользователя");
+                    System.out.println("There is no such user. New User Registration");
+                    System.out.println("Enter the user's first and last name");
                     name = scanner.nextLine();
-                    System.out.println("Введите другой email");
+                    System.out.println("Enter another email");
                     String newEmail = scanner.nextLine();
-                    System.out.println("Введите номер телефона");
+                    System.out.println("Enter phone number");
                     phone = scanner.nextLine();
                     customer = new Customer(1, name, phone, newEmail, 0);
                     customerRepo.add(customer);
@@ -79,12 +71,12 @@ public class EmailInput {
                     emailValid = true;
                     break;
                 case 3:
-                    System.out.println("Регистрация нового пользователя");
-                    System.out.println("Введите имя и фамилию пользователя");
+                    System.out.println("New User Registration");
+                    System.out.println("Enter the user's first and last name");
                     name = scanner.nextLine();
-                    System.out.println("Введите номер телефона");
+                    System.out.println("Enter phone number");
                     phone = scanner.nextLine();
-                    customer = new Customer(1, name, PhoneNumber.numberFormater(phone), email, 0);
+                    customer = new Customer(1, name,new PhoneNumber().numberFormater(phone), email, 0);
                     customerRepo.add(customer);
                     System.out.println(AVAIBLE_REGISTRATION);
                     emailValid = true;

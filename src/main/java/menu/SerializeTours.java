@@ -34,7 +34,6 @@ public class SerializeTours extends Menu {
     public void getMenu() {
         System.out.println(ENTER_FILENAME);
         String filename = scanner.nextLine();
-        filename = filename.concat(".json");
         Map<Integer, List<Tour>> tours = new TreeMap<>();
         List<Customer> clist = customerRepo.findAll();
         List<Tour> tlist = tourRepo.findAll();

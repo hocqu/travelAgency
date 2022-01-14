@@ -4,11 +4,11 @@ import Entities.Customer;
 import Entities.Tour;
 import com.google.gson.Gson;
 
-public class CustomersForJSONReader extends JavaJsonReader{
-    public CustomersForJSONReader(){
+public class JSONReader extends JavaJsonReader{
+    public JSONReader(){
         gson=new Gson();
         aClass= Customer.class;
         downTagName="customer";
-        filename="test.json";
+        filename=filename;
     }
 }

@@ -28,11 +28,11 @@ public class Customer{
 
     @Override
     public String toString() {
-        return "Клиент " + id+
-                ", Имя: " + name +
-                ", Номер телефона " + phone +
-                ", Адрес электронной почты: " + email +
-                ", Скидка: " + sale +"%";
+        return "Customer " + id+
+                ", Name: " + name +
+                ", Phone " + phone +
+                ", Email: " + email +
+                ", Sale: " + sale +"%";
     }
 
     public Integer getId() {

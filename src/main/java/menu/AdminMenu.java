@@ -7,15 +7,15 @@ import java.sql.SQLException;
 public class AdminMenu extends Menu {
 
     private static IntegerInput integerInput=new IntegerInput();
-    private static final String MAIN_MENU = "Меню администратора:\n" +
-            "1. Новый заказ\n" +
-            "2. Список всех клиентов\n" +
-            "3. Список всех заказов\n" +
-            "4. Экспортировать(Сериализация) все заказы в JSON файл\n" +
-            "5. Имортировать(Дисериализация) данные о заказах в бд\n" +
-            "6. Выход";
-    private static final String NO_OPERATION = "Такой операции нету. Повторите попытку";
-    private static final String EXIT = "Закрытие программы";
+    private static final String MAIN_MENU = "Menu:\n" +
+            "1. New order\n" +
+            "2. List of customers\n" +
+            "3. List of orders\n" +
+            "4. Export (Serialize) all orders to JSON file\n" +
+            "5. Import (Disserialize) order data into the database\n" +
+            "6. Exit";
+    private static final String NO_OPERATION = "There is no such operation. Try again";
+    private static final String EXIT = "Closing";
     private static int operationNumber;
 
     private static AdminMenu adminMenu;

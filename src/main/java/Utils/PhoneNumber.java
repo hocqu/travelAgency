@@ -1,7 +1,7 @@
 package Utils;
 
 public class PhoneNumber {
-    public static String numberFormater(String phoneNumber){
+    public String numberFormater(String phoneNumber){
         String newNumber = phoneNumber.replaceAll("[^0-9]", "");
         if(newNumber.length()>11){
         newNumber=String.valueOf(newNumber).replaceFirst("(\\d{3})(\\d{2})(\\d{3})(\\d+)",

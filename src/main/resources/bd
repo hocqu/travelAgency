@@ -1,0 +1,18 @@
+MySQL
+create table Customer(id int AUTO_INCREMENT, name varchar(30),phone varchar(20),email varchar(30),sale int,PRIMARY KEY(id));
+create table Tour(id int AUTO_INCREMENT, tourType varchar(10),departureDate varchar(12),city varchar(30),cost int,burning boolean,customer_id int, PRIMARY KEY(id),FOREIGN KEY (customer_id) REFERENCES customer (id));
+create table allTours(id int AUTO_INCREMENT,city varchar(30),cost int, PRIMARY KEY(id));
+
+PostgreSQL
+CREATE DATABASE "travelAgency"
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Russian_Russia.1251'
+    LC_CTYPE = 'Russian_Russia.1251'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+
+create table Customer(id SERIAL, name varchar(30),phone varchar(20),email varchar(30),sale int,PRIMARY KEY(id));
+create table Tour(id SERIAL, tourType varchar(10),departureDate varchar(12),city varchar(30),cost int,burning boolean,id_customer int, PRIMARY KEY(id),FOREIGN KEY (id_customer) REFERENCES customer (id));
+create table allTours(id SERIAL,city varchar(30),cost int, PRIMARY KEY(id));

@@ -35,12 +35,12 @@ public class Tour {
 
     @Override
     public String toString() {
-        return "Тур " + id+
-                " Тип: " + tourType +
-                " Дата отправления: " + departureDate +
-                " Длительность тура: " + daysInTour +
-                " Место: " + city +
-                " Стоимость: " + cost;
+        return "Tour " + id+
+                " Type: " + tourType +
+                " Departure date: " + departureDate +
+                 "Tour duration: " + daysInTour +
+                " Place: " + city +
+                " Cost: " + cost;
     }
 
     @Override

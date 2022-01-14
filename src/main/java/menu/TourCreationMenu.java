@@ -3,7 +3,7 @@ package menu;
 
 import Entities.Customer;
 import Entities.Tour;
-import Service.EmailInput;
+import Utils.EmailInput;
 import Utils.IntegerInput;
 import repo.CustomerRepo;
 import repo.TourRepo;

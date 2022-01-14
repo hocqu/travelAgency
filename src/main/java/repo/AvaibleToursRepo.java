@@ -6,8 +6,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AvaibleToursRepo {
-    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/travel_Agency?serverTimezone=UTC", "root", "root");
+public class AvaibleToursRepo extends BaseRepo {
 
     public AvaibleToursRepo() throws SQLException {
     }
